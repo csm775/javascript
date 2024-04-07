@@ -1,0 +1,59 @@
+
+body {
+    transition: background-color 0.5s ease;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+#characters img{
+    background: burlywood;
+    border: 2px solid black;
+    width: 25%;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#characters{
+    display: flex;
+   
+}
+
